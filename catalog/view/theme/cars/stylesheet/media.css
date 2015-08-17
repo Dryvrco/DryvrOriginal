@@ -1,0 +1,31 @@
+@media (max-width:1195px) {
+
+}
+
+
+@media (max-width:990px) {
+.setmrg { margin-bottom:20px !important;}
+.src-bar{ width:81%; margin-bottom:40px;}
+}
+
+@media (max-width:768px) {
+
+#banner-container {
+	height:auto;
+	background-color:#1e1d23;
+}
+
+#banner-container img{
+	height:auto;
+	width:100%;
+}
+
+.src-bar{ margin-top:100px; width:100%;}
+
+.txt-cntr {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+}

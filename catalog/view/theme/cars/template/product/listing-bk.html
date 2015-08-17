@@ -1,0 +1,286 @@
+<?php echo $header; ?>
+
+<div class="container">
+  <ul class="breadcrumb">
+    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+    <?php } ?>
+  </ul>
+  <div class="row"><?php echo $column_left; ?>
+    <?php if ($column_left && $column_right) { ?>
+    <?php $class = 'col-sm-6'; ?>
+    <?php } elseif ($column_left || $column_right) { ?>
+    <?php $class = 'col-sm-9'; ?>
+    <?php } else { ?>
+    <?php $class = 'col-sm-12'; ?>
+    <?php } ?>
+    <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="widget margin-top-30 padding-top-10">
+              <div class="widget_title">Search Filters</div>
+              <div class="widget_body">
+                <ul class="left_nav">
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> transmission</a>
+                    <div class="sub_left_nav" style="display:block">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> Booking Type</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> Car type</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> transmission</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> Booking Type</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> Car type</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> transmission</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> Booking Type</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> Car type</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> transmission</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-arrow-circle-right"></i> Booking Type</a>
+                    <div class="sub_left_nav">
+                      <ul>
+                        <li>
+                          <input type="radio" id="all" name="all">
+                          <label for="all"> All</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="manual">
+                          <label for="manual"> Manual</label>
+                        </li>
+                        <li>
+                          <input type="radio" id="automatic">
+                          <label for="automatic"> Automatic</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="widget_title">Available Vehicle</div>
+              <div class="box"> <img src="images/my-car4.jpg">
+                <h1>Lorem ipsum doller sit</h1>
+                <p>Lorem ipsum doller site emer unit lorm your doller sit each doller mert sit</p>
+                <a href="#"><i class="fa fa-search"></i> Search more!</a> </div>
+              <div class="box"> <img src="images/my-car4.jpg">
+                <h1>Lorem ipsum doller sit</h1>
+                <p>Lorem ipsum doller site emer unit lorm your doller sit each doller mert sit</p>
+                <a href="#"><i class="fa fa-search"></i> Search more!</a> </div>
+            </div>
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-12">
+            <section class="padding-top-20"> 
+              <!--<div class="row">
+                <div class="col-md-2 padding-top-15"><strong>Search Results</strong></div>
+                <div class="col-md-4 padding-top-15">Showing 1 to 10 of 10 results</div>
+                <div class="col-md-3 padding-top-15"> View more <a href="#">Cars</a> or <a href="#">Vans</a></div>
+                <div class="col-md-3 text-right"> <a href="#" title="List View" class="viewBtn activeView"><i class="fa fa-list"></i></a> <a href="#" title="List View" class="viewBtn"><i class="fa fa-map-marker"></i></a> </div>
+              </div>--> 
+            </section>
+            <?php foreach ($products as $product){ ?>
+            <section class="listing">
+              <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="vehicle"> <img src="<?php echo $product['thumb']; ?>"> <span><img src="<?php echo $product['avatar']; ?>"></span> </div>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                  <h1><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h1>
+                  <ul>
+                    <li><i class="fa fa-angle-double-right"></i> Economy 2/5 Door - Manual</li>
+                    <li><i class="fa fa-angle-double-right"></i> leeds, headingley, 1.71 miles from your chosen location</li>
+                    <li> <img src="catalog/view/themes/cars/image/icon-number-of-adults.png" > <img src="catalog/view/themes/cars/image/icon-manual-transmission.png" > <img src="catalog/view/themes/cars/image/onrequest.gif" > <img src="catalog/view/themes/cars/image/icon-air-conditioning.png" > <img src="catalog/view/themes/cars/image/meet_the_owner_ico.png" > <img src="catalog/view/themes/cars/image/fuel_full_to_full_ico.gif" > </li>
+                  </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="pricing">
+                    <tr>
+                      <td width="25%"><p><?php echo $product['daily']; ?></p>
+                        <span>Daily</span></td>
+                      <td width="25%"><p><?php echo $product['weekly']; ?></p>
+                        <span>Weekly</span></td>
+                      <td width="25%"><p><?php echo $product['weekend']; ?></p>
+                        <span>Weekend</span></td>
+                      <td width="25%"><p><?php echo $product['monthly']; ?></p>
+                        <span>Monthly</span></td>
+                    </tr>
+                  </table>
+                  <div class="margin-top-30 text-right"> <!--<a href="#">More information</a> <a href="#">Terms and conditions</a>--> <a href="<?php echo $product['href']; ?>" class="requestBtn margin-top-15">Request Now <i class="fa fa-angle-double-right"></i></a> </div>
+                </div>
+              </div>
+            </section>
+            <?php } ?>
+            <div class="text-right"><?php echo $pagination; ?></div>
+          </div>
+        </div>
+      </div>
+      <?php echo $content_bottom; ?></div>
+    <?php echo $column_right; ?></div>
+</div>
+<?php echo $footer; ?>
